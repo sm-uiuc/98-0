@@ -15,10 +15,15 @@ class Team {
     int losses;
     
     // Ratings from 40 - 99
-    int teamOverall;    
-
+    int teamOverall;  
+    Team () {}  
+    Team (std::string name, std::string conference, std::string division) : roster(15) {
+        this->teamName = name;
+        this->conference = conference;
+        this->division = division;
+    }
     private:
         int _teamID;
-}
+};
 
 #endif
