@@ -6,8 +6,12 @@
 
 class League {
     public:
-        vector<Team> 
-
-}
+        std::vector<Team> league;
+        std::string name;
+        League (std::string name) : league(30), name(this->name) {}
+    
+    private:
+        int id_;
+};
 
 #endif 

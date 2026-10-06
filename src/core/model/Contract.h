@@ -13,6 +13,6 @@ class Contract {
         std::string getContractString() {
             std::cout << "$" << contractAmount << ", " << yearsTotal << " contract" << std::endl; 
         }
-}
+};
 
 #endif 
